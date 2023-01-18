@@ -12,3 +12,31 @@ span{
     border: 1px solid #22D4FD;
     padding: 10px;
 }
+
+#texto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    position: absolute;
+    width: 593px;
+    height: 352px;
+    left: 357px;
+    top: 278px;
+}
+
+#imagemInicio{
+    position: absolute;
+    width: 488px;
+    height: 550px;
+    left: 1030px;
+    top: 235px;
+}
+
+.botao{
+    background: #22D4FD;
+    padding: 16px;
+    border-radius: 16px;
+}
