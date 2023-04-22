@@ -10,7 +10,6 @@ body {
 }
 
 header{
-    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -25,3 +24,36 @@ header{
     width: 80px;
 }
 
+.menu a {
+    text-decoration: none;
+    color: #042940;
+    padding: 10px;
+    display: inline;
+    font-size: large;
+}
+
+.menu a:hover {
+    color: #D6D58E;
+    background: #042940;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.container_main {
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_main h3 {
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    color: #042940;
+}
+
+.container_main p {
+    width: 100vh;
+}
