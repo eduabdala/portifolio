@@ -28,6 +28,12 @@ header{
     width: 80px;
 }
 
+.menu {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
 .menu a {
     text-decoration: none;
     color: #042940;
@@ -58,7 +64,7 @@ header{
     align-items: center;
     font-size: 2em;
     padding: 0.5em;
-    margin: 1em;
+    margin: 0.5em;
     color: #042940;
 }
 
@@ -86,7 +92,7 @@ header{
 }
 
 .projetos {
-    display: none;
+    display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin: 1em;
@@ -96,6 +102,12 @@ header{
 footer {
     display: flex;
     justify-content: center;
+    bottom: 0;
+    left: 0;
     padding: 3rem;
     width: 100%;
+}
+
+footer p {
+    padding: 0.5em;
 }
