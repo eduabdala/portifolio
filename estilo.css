@@ -76,7 +76,7 @@ header{
         flex-direction: column;
     }
 
-    .container_main {
+    .container_main p {
         width: 80%;
     }
 }
