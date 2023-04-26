@@ -4,7 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Bruno Ace SC';
-    overflow-x: none;
+    overflow-x: hidden;
 }
 
 body {
