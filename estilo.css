@@ -92,7 +92,7 @@ header{
 }
 
 .projetos {
-    display: flex;
+    display: none;
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin: 1em;
