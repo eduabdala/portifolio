@@ -79,6 +79,10 @@ header{
     .container_main p {
         width: 80%;
     }
+
+    .projetos{
+        display: none;
+    }
 }
 
 .projetos {
