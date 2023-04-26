@@ -2,13 +2,13 @@
 
 * {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font-family: 'Bruno Ace SC';
 }
 
 body {
     background: #D6D58E;
+    width: 100%;
 }
 
 
@@ -17,9 +17,9 @@ header{
     left: 0;
     width: 100%;
     padding: 1rem;
-    margin: 2rem;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     z-index: 100;
 }
 
@@ -30,39 +30,56 @@ header{
 .menu a {
     text-decoration: none;
     color: #042940;
-    padding: 15px;
+    padding: 1em;
     display: inline;
-    font-size: large;
+    font-size: 1em;
 }
 
 .menu a:hover {
     color: #D6D58E;
     background: #042940;
-    border-radius: 25px;
-    padding: 15px;
+    border-radius: 1.5em;
+    padding: 1em;
 }
 
 .container_main {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
 }
+
 
 .container_main h3 {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2em;
+    padding: 0.5em;
+    margin: 1em;
     color: #042940;
 }
 
 .container_main p {
-    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 1em;
+}
+
+.projetos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 1em;
+    padding: 1em;
 }
 
 footer {
     display: flex;
     justify-content: center;
-    bottom: 0;
-    padding: 8%;
+    padding: 3rem;
+    width: 100%;
 }
