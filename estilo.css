@@ -4,12 +4,12 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Bruno Ace SC';
-    overflow-x: hidden;
 }
 
 body {
     background: #D6D58E;
     width: 100%;
+    overflow-x: hidden;
 }
 
 
