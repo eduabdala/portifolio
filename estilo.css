@@ -4,6 +4,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Bruno Ace SC';
+
 }
 
 body {
@@ -23,15 +24,20 @@ header{
   justify-content: flex-end;
   align-items: flex-end;
   z-index: 100;
+  margin-top: 1.5rem;
 }
 
 .menu {
+  display: none;
+}
+
+.menu:active {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
   align-items: end;
   text-align: center;
-  margin-right: 5rem;
 }
+
 
 .menu a {
   text-decoration: none;
@@ -46,6 +52,18 @@ header{
   background: #042940;
   border-radius: 1.5em;
   padding: 1em;
+}
+
+.menu-icon {
+  background: none;
+  border: none;
+  color: #042940;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.menu-icon:active {
+  color: wwh;
 }
 
 .container_main, .container_projetos {
@@ -95,6 +113,7 @@ header{
 	list-style: none;
 	justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .logo_redes {
@@ -104,6 +123,7 @@ header{
 }
 
 .link_logo {
+  text-align: center;
 	margin: 1rem;
 	display: flex;
 	align-items: center;
@@ -189,6 +209,26 @@ footer p {
     display: flex;
     flex-direction: column;
   }
+
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+    margin: 1rem;
+  }
+  
+  nav ul {
+    display: none;
+  }
+
+  nav ul.active {
+    display: block;
+  }
+
+  nav ul li {
+    display: block;
+    text-align: left;
+  }
+
 
   .container_main p {
     width: 80%;
