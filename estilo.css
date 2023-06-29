@@ -114,6 +114,10 @@ header{
   border-radius: 4rem;
 }
 
+.container_projetos a {
+  text-decoration: none;
+}
+
 .card_projeto{
   display: flex;
   flex-direction: column;
@@ -128,6 +132,7 @@ header{
 }
 
 .card_projeto p {
+  width: 90%;
   font-size: small;
 }
 
@@ -191,7 +196,7 @@ footer p {
   }
 
   .container_main p {
-    width: 80%;
+    width: 93%;
   }
 
 }
