@@ -38,7 +38,7 @@ header{
   color: #042940;
   padding: 1em;
   display: inline;
-  font-size: 1em;
+  font-size: 0.7em;
 }
 
 .menu a:hover {
@@ -139,7 +139,7 @@ header{
 .img_card {
   width: 80%;
   margin: 2rem;
-  border-radius: 1em ;
+  border-radius: 0.7em ;
   opacity: 80%;
 }
 
@@ -187,7 +187,7 @@ footer p {
 
 @media(max-width: 500px){
   .menu {
-    flex-direction: column;
+
     margin-right: 0;
   }
   .menu a {
